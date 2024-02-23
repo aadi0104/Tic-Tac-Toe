@@ -1,0 +1,148 @@
+header {
+  text-align: center;
+  background-color: rgb(1, 1, 23);
+}
+
+header>p {
+  margin: 0px;
+  font-size: 50px;
+  color: white;
+}
+
+header>p>img{
+  height: 90px;
+}
+
+section {
+  text-align: center;
+}
+
+section>h3 {
+  font-family: Arial, Helvetica, sans-s1erif;
+  color: rgb(1, 1, 23);
+}
+
+section>h4>img {
+  height: 18px;
+}
+
+#game-container {
+  display: flex;
+  height: 83%;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-container>div {
+  margin: 20px 0px;
+}
+
+#game-container>div>p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+#game-container>div>p>img {
+  height: 20px;
+}
+
+#game-container>div>p>button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(4, 208, 208);
+}
+
+#game-container>div>table {
+  margin: auto;
+}
+
+#game-container>div>table tr td {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+}
+
+#game-container>div>table tr td>img{
+  height: 30px;
+  position: relative;
+}
+
+#note{
+  position: absolute;
+  width: 100%;
+  color: rgb(1, 1, 23);
+}
+
+
+@media (max-width: 520px) {
+
+  section {
+    height: 65vh;
+  }
+
+  #note{
+    bottom: 0px;
+  }
+
+  #game-container {
+    display: block;
+  }
+
+  #game-container>div {
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  #game-container>div>p {
+    display: inline-block;
+  }
+
+}
+
+@media (min-width: 520px) {
+
+  section {
+    height: 74.7vh;
+  }
+  
+  #note{
+    bottom: 60px;
+  }
+
+  #game-container>div {
+    margin: 20px 0px;
+  }
+
+
+  #first-div {
+    text-align: right;
+    width: 25%;
+    padding-right: 20px;
+  }
+
+  #second-div {
+    text-align: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  #game-container>div>p {
+    display: block;
+  }
+
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(1, 1, 23);
+}
+
+footer>p {
+  margin: 0px;
+  padding: 20px;
+  font-size: 15px;
+  color: white;
+}
